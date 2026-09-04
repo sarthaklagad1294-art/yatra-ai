@@ -1,0 +1,88 @@
+# Logs and debugging
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Build outputs
+dist
+dist-ssr
+*.local
+build
+
+# Environment variables (NEVER commit these)
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor files
+.vscode
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.iml
+*.sublime-project
+*.sublime-workspace
+
+# OS specific
+Thumbs.db
+.DS_Store
+
+# Deployment
+.vercel
+.netlify
+
+# Mobile/Capacitor
+.gradle
+.m2
+.classpath
+.project
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+capacitor.config.json
+
+# Testing
+coverage
+.nyc_output
+
+# Temporary files
+temp
+tmp
+*.tmp
+*.bak
+*.swp
+*~
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Linux
+.directory
+
+# Misc
+*.pem
+*.key
+*.cert
